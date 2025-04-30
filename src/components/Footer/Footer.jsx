@@ -19,7 +19,6 @@ const Footer = () => {
           <li>Descrição em áudio</li>
           <li>Central de ajuda</li>
           <li>Vale Presentes</li>
-          <li>Central de mídia</li>
           <li>Trabalhe conosco</li>
           <li>Termos de uso</li>
           <li>Privacidade</li>
