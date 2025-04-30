@@ -7,8 +7,16 @@ import play_icon from "../../assets/play_icon.png"
 import info_icon from "../../assets/info_icon.png"
 import TitleCards from '../../components/TitleCards/TitleCards'
 import Footer from '../../components/Footer/Footer'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
+  const handlePlay = () => {
+    navigate('/player/banner');
+  }
+
   return (
     <div className='home'>
         <Navbar/>
@@ -20,7 +28,7 @@ const Home = () => {
           em uma jornada com cinco jovens de Dois Rios, 
           tentando encontrar o Dragão Renascido.</p>
           <div className="hero-btns">
-            <button className='btn'><img src={play_icon} alt="" />Assistir</button>
+            <button onClick={handlePlay} className='btn'><img src={play_icon} alt="" />Assistir</button>
             <button className='btn dark-btn'><img src={info_icon} alt="" />Mais Informações</button>
           </div>
         </div>
