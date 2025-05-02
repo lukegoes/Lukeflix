@@ -104,9 +104,14 @@
     .login{
         padding: 15px 5%;
     }
+
+    .login-logo{
+        width: 100px;
+    }
+    
     .login-form{
         padding: 20px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     
 }
