@@ -106,6 +106,7 @@
 
     .login-logo{
         width: 100px;
+        margin-top: 20px;
     }
 
     .login-form{
@@ -119,7 +120,7 @@
         url(/background_banner.jpg),
         ;
         background-size: cover;
-        
+
     }
     
 }
