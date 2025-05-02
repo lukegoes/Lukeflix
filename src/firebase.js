@@ -36,24 +36,32 @@ const signup = async (name, email, password) => {
        });
     } catch (error) {
         const message = errorMessages[error.code] || "Ocorreu um erro ao fazer login.";
-    toast.error(message);
+        toast.error(message, {
+          autoClose: 2000
+        });
   }
 };
 
 const login = async (email, password) => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      toast.success("Login realizado com sucesso!");
+      toast.success("Login realizado com sucesso!", {
+        autoClose: 2000
+      });
     } catch (error) {
         console.log(error);
         const message = errorMessages[error.code] || "Ocorreu um erro ao fazer login.";
-    toast.error(message);
+        toast.error(message, {
+          autoClose: 2000
+        });
   }
 };
 
 const logout = () => {
     signOut(auth);
-    toast.success("Logout realizado com sucesso!");
+    toast.success("Logout realizado com sucesso!", {
+      autoClose: 2000
+    });
 }
 
 export { auth, db, login, logout, signup };
