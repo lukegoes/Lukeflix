@@ -92,13 +92,20 @@
 }
 
 @media (max-width: 800px) {
+    .banner-img{
+        height: 300px;
+        object-fit: cover;
+        mask-image: linear-gradient(to top, transparent, black 50%);
+        -weblit-mask-image: linear-gradient(to top, transparent, black 75%);
+    }
+    
     .hero-caption{
        padding-left: 4%;
     }
 
     .caption-img{
-        margin-bottom: 10px;
-        width: 40%;
+        margin-bottom: -20px;
+        width: 45%;
     }
 
     .hero-caption p{
@@ -112,6 +119,8 @@
 
     .more-cards{
         padding-left: 4%;
+        margin-top: -10px;
+        }
     }
 }
 
