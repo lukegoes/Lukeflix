@@ -1,12 +1,34 @@
-# React + Vite
+# 🎬 Lukeflix - Interface de Streaming
+https://lukeflix.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto inspirado na interface da Netflix, desenvolvido com foco em responsividade e consumo de APIs públicas. O Lukeflix exibe um catálogo de filmes dinâmico, utilizando dados reais da internet.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Simular a experiência de uma plataforma de streaming, utilizando uma API de filmes (TMDB).
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Axios 
+- HTML + CSS
+- Design responsivo
+
+## Funcionalidades
+
+- Exibição dinâmica de filmes
+- Layout inspirado na Netflix
+- Requisições à API de filmes
+- Responsividade para dispositivos móveis
+
+## Aprendizados
+- Integração com APIs REST
+
+- Manipulação de listas e dados dinâmicos
+
+- Estilização responsiva de interfaces
+
+- Organização de componentes e rotas
+
+## Contato
+- [LinkedIn](https://www.linkedin.com/in/lukgoes/)
